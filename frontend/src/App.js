@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import logo from './peterh-indeed-1.jpg';
+import logo from './logo1.png';
 import './App.css';
 
 const DisplayAnagrams = (words) => {
