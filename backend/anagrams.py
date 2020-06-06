@@ -1,9 +1,7 @@
 from collections import Counter
 from copy import deepcopy
 
-#with open('/usr/share/dict/words', 'r') as file:
-
-with open('words', 'r') as file:
+with open('/usr/share/dict/words', 'r') as file:
     os_word_list = file.readlines()
     os_word_list = [word.strip('\n').lower() for word in os_word_list]
     os_word_list = list(filter(lambda x: len(x) > 2, os_word_list))
